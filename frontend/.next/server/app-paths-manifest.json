@@ -1,0 +1,10 @@
+{
+  "/not-found": "app/not-found.js",
+  "/reward_catalog/page": "app/reward_catalog/page.js",
+  "/user/signup/page": "app/user/signup/page.js",
+  "/cart/page": "app/cart/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/product/page": "app/product/page.js",
+  "/user/signin/page": "app/user/signin/page.js"
+}

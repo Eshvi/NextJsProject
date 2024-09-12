@@ -1,0 +1,61 @@
+/* Fullscreen with animated gradient background */
+.redeem-points-container {
+    height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: gradientShift 15s ease infinite;
+  }
+  
+  /* Redeem card with shadow, rounded corners, and animation */
+  .redeem-points-card {
+    max-width: 500px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .redeem-points-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  .btn-block {
+    background-color: #dc3545;
+    color: #fff;
+    border-radius: 5px;
+    animation: pulse 1s infinite;
+  }
+  
+  .btn-block:hover {
+    background-color: #c82333;
+  }
+  
+  /* Keyframe animations */
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  

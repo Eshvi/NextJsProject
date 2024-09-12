@@ -1,0 +1,88 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Logo styling */
+  .navbar__brand .navbar__logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar__brand .navbar__logo:hover {
+    color: #ff4081;
+  }
+  
+  /* Links styling */
+  .navbar__links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar__link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar__link:hover {
+    color: #ff4081;
+  }
+  
+  /* Icon styling */
+  .navbar__icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar__icon {
+    font-size: 22px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar__icon:hover {
+    color: #ff4081;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 10px 20px;
+    }
+  
+    .navbar__brand .navbar__logo {
+      font-size: 20px;
+    }
+  
+    .navbar__link {
+      font-size: 16px;
+    }
+  
+    .navbar__icon {
+      font-size: 20px;
+    }
+  }
+  

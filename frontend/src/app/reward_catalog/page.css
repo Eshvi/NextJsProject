@@ -1,0 +1,25 @@
+.reward-card {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .reward-card img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .btn-block {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-block:hover {
+    background-color: #0056b3;
+  }
+  
